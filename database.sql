@@ -3,9 +3,6 @@
 -- Database: waste_management_db
 -- ============================================================
 
-CREATE DATABASE IF NOT EXISTS waste_management_db CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci;
-USE waste_management_db;
-
 -- ============================================================
 -- Table: admin
 -- ============================================================

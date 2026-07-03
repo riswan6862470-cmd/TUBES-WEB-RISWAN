@@ -234,7 +234,7 @@ if ($is_admin) {
 
                             <?php if ($r['foto']): ?>
                             <div class="mb-3">
-                                <img src="/TUBES WEB RISWAN/uploads/<?= htmlspecialchars($r['foto']) ?>"
+                                <img src="uploads/<?= htmlspecialchars($r['foto']) ?>"
                                      alt="Foto Laporan"
                                      class="w-100 rounded-3"
                                      style="max-height:180px;object-fit:cover;cursor:pointer;"

@@ -4,7 +4,7 @@ if (session_status() === PHP_SESSION_NONE) {
     session_start();
 }
 $page_title = isset($page_title) ? $page_title : 'Smart Waste Management';
-$base_url = '/TUBES WEB RISWAN/';
+$base_url = '';
 ?>
 <!DOCTYPE html>
 <html lang="id">

@@ -47,7 +47,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
-    <link href="/TUBES WEB RISWAN/assets/css/style.css" rel="stylesheet">
+    <link href="assets/css/style.css" rel="stylesheet">
 </head>
 <body class="auth-body">
 
@@ -149,14 +149,14 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 
         <div class="auth-divider">sudah punya akun?</div>
 
-        <a href="/TUBES WEB RISWAN/login.php" class="btn-outline-eco w-100 justify-content-center" style="padding:11px;">
+        <a href="login.php" class="btn-outline-eco w-100 justify-content-center" style="padding:11px;">
             <i class="bi bi-box-arrow-in-right"></i>
             Masuk ke Akun
         </a>
     </div>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
-    <script src="/TUBES WEB RISWAN/assets/js/main.js"></script>
+    <script src="assets/js/main.js"></script>
     <script>
         togglePassword('password', 'togglePwd');
     </script>

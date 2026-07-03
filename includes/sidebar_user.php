@@ -26,7 +26,7 @@ $current_page = basename($_SERVER['PHP_SELF']);
     <nav class="sidebar-nav">
         <div class="nav-section-label">MENU UTAMA</div>
 
-        <a href="/TUBES WEB RISWAN/dashboard_user.php"
+        <a href="dashboard_user.php"
            class="nav-item <?= $current_page == 'dashboard_user.php' ? 'active' : '' ?>">
             <i class="bi bi-grid-1x2-fill"></i>
             <span>Dashboard</span>
@@ -34,19 +34,19 @@ $current_page = basename($_SERVER['PHP_SELF']);
 
         <div class="nav-section-label">LAYANAN</div>
 
-        <a href="/TUBES WEB RISWAN/reports.php"
+        <a href="reports.php"
            class="nav-item <?= $current_page == 'reports.php' ? 'active' : '' ?>">
             <i class="bi bi-file-earmark-plus-fill"></i>
             <span>Buat Laporan</span>
         </a>
 
-        <a href="/TUBES WEB RISWAN/pickup.php"
+        <a href="pickup.php"
            class="nav-item <?= $current_page == 'pickup.php' ? 'active' : '' ?>">
             <i class="bi bi-truck-front-fill"></i>
             <span>Jadwal Penjemputan</span>
         </a>
 
-        <a href="/TUBES WEB RISWAN/bins.php"
+        <a href="bins.php"
            class="nav-item <?= $current_page == 'bins.php' ? 'active' : '' ?>">
             <i class="bi bi-box-fill"></i>
             <span>Status Bin</span>
@@ -54,13 +54,13 @@ $current_page = basename($_SERVER['PHP_SELF']);
 
         <div class="nav-section-label">AKUN</div>
 
-        <a href="/TUBES WEB RISWAN/profile.php"
+        <a href="profile.php"
            class="nav-item <?= $current_page == 'profile.php' ? 'active' : '' ?>">
             <i class="bi bi-person-gear-fill"></i>
             <span>Profil Saya</span>
         </a>
 
-        <a href="/TUBES WEB RISWAN/logout.php" class="nav-item logout-item">
+        <a href="logout.php" class="nav-item logout-item">
             <i class="bi bi-box-arrow-left"></i>
             <span>Logout</span>
         </a>
